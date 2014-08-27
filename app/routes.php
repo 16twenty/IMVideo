@@ -16,7 +16,12 @@ Route::get('/', function()
 	return View::make('pages/index');
 });
 
-Route::get('/posterjack', function()
+Route::get('/{casestudy}', function($casestudy) {
+	$pages = array('molson','rbc','su2c','posterjack');
+	return View::make('pages/'.$casestudy)->with('pages',$pages)->with('case',$casestudy);
+});
+
+/*Route::get('/posterjack', function()
 {
 	return View::make('pages/posterjack');
 });
@@ -34,4 +39,4 @@ Route::get('/rbc', function()
 Route::get('/su2c', function()
 {
 	return View::make('pages/su2c');
-});
+});*/
