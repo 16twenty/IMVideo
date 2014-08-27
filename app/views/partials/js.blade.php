@@ -56,7 +56,7 @@ $('#about').click(function(event){
 <script>
 jQuery(document).ready(function ($) {
 	var slideCount = $('.slider .cs_container .slide').length;
-	var sliderWidth = $('.slider .cs_container .slide').width() / $('.slider .cs_container .slide').parent().width() * 100;
+	var sliderWidth = 100; 
 	var slideWidth = sliderWidth /  slideCount;
 	var sliderContainerWidth = slideCount * sliderWidth;
 	
@@ -196,83 +196,4 @@ window.onload = function() {
 		video.volume = volumeBar.value;
 	});
 }
-</script>
-<script>
-var slide1 = 'molson';
-var slide2 = 'rbc';
-var slide3 = 'su2c';
-var slide4 = 'posterjack';
-var home = '/IMVideo/public/';
-//var home = window.location = '/';
-var path = window.location.pathname.split('/');
-var current = path.pop();
-console.log(current);
-$('.case_nav #previous').click(function(){
-	if (current == slide1){
-		window.open(slide4, '_self', false);
-	}
-	else if (current == slide2){
-		window.open(slide1, '_self', false);
-	}
-	else if (current == slide3){
-		window.open(slide2, '_self', false);
-	}
-	else if (current == slide4){
-		window.open(slide3, '_self', false);
-	}
-});
-$('.case_nav #next').click(function(){
-	if (current == slide1){
-		window.open(slide2, '_self', false);
-	}
-	else if (current == slide2){
-		window.open(slide3, '_self', false);
-	}
-	else if (current == slide3){
-		window.open(slide4, '_self', false);
-	}
-	else if (current == slide4){
-		window.open(slide1, '_self', false);
-	}
-});
-$('.case_nav #home').click(function(){
-	window.open(home, '_self', false);
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>

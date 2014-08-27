@@ -446,6 +446,10 @@ h6 {
 .control_button#home {
 	border:none;
 }
+.control_button a {
+	display: block;
+	height: 100%;
+}
 #previous {
 	background: url(../../img/previous.png) center center no-repeat;
 	background-color: #f7f7f7;

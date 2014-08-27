@@ -22,7 +22,7 @@
 		<div class="row">
 			<h1 class="add_line">Digital<br>Film Makers</h1>
 			<p class="eight columns centered subtitle">
-				Full service digital video production with a passion for performance marketing and solutions that inspire curiosity. 
+				Full service digital video production with a passion for performance marketing and solutions that inspire curiosity. 
 			</p>
 			<div class="eight columns centered">
 				<div class="large default btn icon-right entype icon-play">
