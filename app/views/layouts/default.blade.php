@@ -18,5 +18,6 @@
     	</div>
 		@include('partials/reel')
         @include('partials/js')
+		@include('partials/mainjs')
     </body>
 </html>

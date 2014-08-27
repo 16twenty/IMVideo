@@ -1,18 +1,15 @@
 <?php
-for($i=0;$i< count($pages);$i++) {
-	if($pages[$i]==$case) {
-		if($i==0) {
-			$prev = $pages[count($pages)-1];
-		} else {
-			$prev = $pages[$i-1];
-		}
-		if($i==count($pages)-1) {
-			$next = $pages[0];
-		} else {
-			$next = $pages[$i+1];
-		}
+$key = array_search($case,$pages);
+	if($key==0) {
+		$prev = $pages[count($pages)-1];
+	} else {
+		$prev = $pages[$key-1];
 	}
-}
+	if($key==count($pages)-1) {
+		$next = $pages[0];
+	} else {
+		$next = $pages[$key+1];
+	}
 ?>
 <div class="case_nav">
 	<div class="controls">
