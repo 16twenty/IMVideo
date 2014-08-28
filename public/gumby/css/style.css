@@ -35,7 +35,8 @@ h1.add_line:after {
 	font-weight: 300;
 	color:#ffffff;
 	line-height: 28px;
-	padding-top:40px; 
+	padding-top:40px;
+	text-align: center; 
 }
 h2 {
 	padding-top:0px;
@@ -120,7 +121,7 @@ h3 {
 	background: url(../../img/arrow_dark.png) no-repeat; 
 }
 .btn.xlarge a {
-	padding: 0 35px;
+	padding: 0 30px;
 }
 h4 {
 	font-size: 20px;
@@ -368,8 +369,8 @@ h6 {
 	-webkit-transform: translateZ(0px);
 }
 .slide {
-	width:100%;
 	float:left;
+	overflow: hidden;
 }
 .cs_title{
 	background:#f7f7f7;
@@ -387,39 +388,23 @@ h6 {
 	background: url(../../img/posterjack_bg.jpg) -48px 0 no-repeat;
 	background-color: #288d96;	
 }
-.posterjack_tease {
-	margin-top: 84px;
-	margin-left:-70px;
-	max-width:117%;
-	padding-bottom:27px;
-}
 .su2c{
 	background: url(../../img/su2c_bg.jpg) -48px 0 no-repeat;
 	background-color: #191919;	
-}
-.su2c_tease {
-	margin-top: 62px;
-	margin-left:-70px;
-	max-width:117%;
-	padding-bottom:27px;
 }
 .rbc{
 	background: url(../../img/rbc_bg.jpg) -48px 0 no-repeat;
 	background-color: #23509d;	
 }
-.rbc_tease {
-	margin-top: 91px;
-	margin-left:-70px;
-	max-width:117%;
-	padding-bottom:27px;
-}
-.molson_tease {
-	margin-top: 91px;
-	margin-left:-70px;
-	max-width:117%;
-}
 .tease {
 	padding-top: 182px;
+}
+.slide .eight {
+	padding:70px 0 0px;
+}
+.slide .eight img {
+	max-width:117%;
+	margin-left: -10%;
 }
 .case_deets {
 	font-family: "proxima-nova";
@@ -673,9 +658,96 @@ footer {
 	margin-bottom:-120px;
 }
 
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size:95px;
+		line-height: 75px;
+	}
+	h2 {
+		font-size: 39px;
+	}
+	.about {
+		padding-top:50px;
+		padding-bottom:40px;
+	}
+	.about_txt {
+		padding-top:10px;
+	}
+	.about_txt .six.columns {
+		width:100%;
+		margin-left:0;
+	}
+	.subtext {
+		font-size: 18px;
+	}
+	.clients img {
+		margin-top:20px;
+	}
+	.slide .row .eight {
+		width:100%;
+		text-align: center
+	}
+	.cs_title {
+		padding-top:50px;
+		padding-bottom:80px;
+	}
+	.tease {
+		padding-top: 0;
+		padding-bottom: 30px;
+		width:100%!important;
+		text-align: center;
+	}
+	.tease .text-left {
+		text-align: center;
+	}
+	.case_deets {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.services {
+		padding-top:50px;
+		padding-bottom:40px;
+	}
+	.slide .eight {
+		padding-bottom: 0px;
+	}
+	.slide .eight img {
+		max-width:67%;
+		margin-left:0;
+	}
+}
 
-
-
+@media only screen and (min-width: 1024px) and (max-width: 1190px) {
+	.tease h2 {
+		font-size: 40px;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+	.tease h2 {
+		font-size: 27px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size:30px;
+		line-height: 30px;
+	}
+	h1.add_line:after {
+		bottom:17px;
+	}
+	.subtitle {
+		padding-top:0;
+	}
+	.navbar {
+		margin-top:10px;
+	}
+	.nav_wrap {
+		height:auto;
+	}
+	.intro_text {
+		top:19%;
+	}
+}
 
 
 

@@ -46,7 +46,7 @@ $('#about').click(function(event){
 
 </script>
 <script>
-jQuery(document).ready(function ($) {
+$(document).ready(function () {
 	var slideCount = $('.slider .cs_container .slide').length;
 	var sliderWidth = 100; 
 	var slideWidth = sliderWidth /  slideCount;
@@ -74,7 +74,6 @@ jQuery(document).ready(function ($) {
             $('.slider .cs_container').css({left: ''});
         });
     };
-
     $('#previous').click(function () {
         moveLeft();
     });
@@ -83,10 +82,12 @@ jQuery(document).ready(function ($) {
         moveRight();
     });
 
-});    
+}); 
+
 $('.slide .eight img').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 	$(this).removeClass('wow animated fadeInLeft');
 });
+
 </script>
 
 <script>

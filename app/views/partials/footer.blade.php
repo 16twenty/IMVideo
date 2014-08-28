@@ -11,7 +11,9 @@
 		</div>
 		<div class="eight columns push_one">
 			<h4>Instagram @imvideo</h4>
-			<!--<iframe src="http://snapwidget.com/in/?u=aW12aWRlb3xpbnwxMDh8NXwyfHxub3wyMHxmYWRlT3V0fG9uU3RhcnR8bm8=&v=11714" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:640px; height:256px"></iframe>-->
+			<!-- INSTANSIVE WIDGET -->
+			<script src="http://instansive.com/widget/js/instansive.js"></script>
+			<iframe src="http://instansive.com/widgets/qea20184f53124d156763ffddecd6c08.html" scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 			<div class="row">
 				<div class="four columns sub_subtext white alpha">
 					<i class="icon-location"></i>Toronto, ON
