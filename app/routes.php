@@ -20,23 +20,3 @@ Route::get('/{casestudy}', function($casestudy) {
 	$pages = array('molson','rbc','su2c','posterjack');
 	return View::make('pages/'.$casestudy)->with('pages',$pages)->with('case',$casestudy);
 });
-
-/*Route::get('/posterjack', function()
-{
-	return View::make('pages/posterjack');
-});
-
-Route::get('/molson', function()
-{
-	return View::make('pages/molson');
-});
-
-Route::get('/rbc', function()
-{
-	return View::make('pages/rbc');
-});
-
-Route::get('/su2c', function()
-{
-	return View::make('pages/su2c');
-});*/
