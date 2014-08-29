@@ -361,6 +361,9 @@ h6 {
 .slider {
 	overflow: hidden;
 	position: relative;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translateZ(0px);
 }
 .cs_container {
 	position: relative;
@@ -373,6 +376,9 @@ h6 {
 .slide {
 	float:left;
 	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translateZ(0px);
 }
 .cs_title{
 	background:#f7f7f7;
@@ -779,6 +785,48 @@ footer {
 	}
 }
 @media only screen and (max-width: 568px) {
+	h1 {
+		font-size:30px;
+		line-height: 30px;
+	}
+	h1.add_line:after {
+		bottom:17px;
+	}
+	.subtitle {
+		padding-top:0;
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.navbar {
+		margin-top:10px;
+	}
+	.intro_text {
+		top:19%;
+	}
+	.header .btn {
+		margin-top:0;
+	}
+	.booyah {
+		height: 52px;
+	}
+	.navbar.fixed {
+		min-height: 45px;
+	}
+	.navbar.fixed .logo, .navbar.fixed .logo a {
+		height: 52px;
+	}
+	.inner_intro_text h1 {
+		font-size: 43px;
+	}
+	.inner_intro_text h1, .inner_intro_text h6 {
+		margin:0;
+	}
+	.inner_intro_text .case_sub, .molson_asset, .su2c_asset, .rbc_asset, .posterjack_asset {
+		display: none;
+	}
+	
+}
+@media only screen and (max-width: 640px) and (-webkit-device-pixel-ratio:2) {
 	h1 {
 		font-size:30px;
 		line-height: 30px;
