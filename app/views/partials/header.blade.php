@@ -1,5 +1,5 @@
 <div class="nav_wrap animated fadeInDown">
-	<div class="row navbar" gumby-fixed=".about" gumby-offset="150">
+	<div class="row navbar" gumby-fixed=".about" gumby-offset="150" id="nav1"> 
 		<a class="toggle" gumby-trigger="#nav1 > ul" href="#"><i class="icon-menu"></i></a>
 		<h1 class="four columns logo">
 			<a id="first" class="show" href="#">
@@ -25,8 +25,11 @@
 				Full service digital video production with a passion for performance marketing and solutions that inspire curiosity. 
 			</p>
 			<div class="eight columns centered">
-				<div class="large default btn icon-right entype icon-play">
+				<div class="large default btn icon-right entypo icon-play big_screen">
 					<a href="#" id="reel">Play Our Reel</a>
+				</div>
+				<div class="large default btn icon-right entypo icon-play small_screen">
+					<a href="http://vimeo.com/83536881" target="_blank">Play Our Reel</a>
 				</div>
 			</div>
 		</div>

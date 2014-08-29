@@ -26,7 +26,7 @@
 		</div>
 	</div>
 </div>
-<div class="cs_title concept">
+<div class="cs_title concept hide_flow">
 	<div class="row">
 		<h2>Project Concept</h2>
 	</div>
@@ -36,10 +36,12 @@
 				This is a project we felt very strongly about. So we did it for free. We've all been affected by Cancer, one way or another. So this was our way of giving back. We promised the client same day edits that would be readily available for download by any media outlets who felt as strongly about the cause as we did. 
 			</p>
 		</div>
-		<div class="relative twelve columns alpha text-center clock_container wow rotateInDownLeft">
-			<img class="clock" src="{{ asset('img/clock.png') }}"  /> 
-			<img class="shoot_bubble" src="{{ asset('img/arms.png') }}"  /> 
-			<img class="edit_bubble animated rotateClock" src="{{ asset('img/second_hand.png') }}"  /> 
+		<div class="twelve columns clock_holder alpha">
+			<div class="clock_container">
+				<img class="clock" src="{{ asset('img/clock.png') }}"  /> 
+				<img class="shoot_bubble" src="{{ asset('img/arms.png') }}"  /> 
+				<img class="edit_bubble animated rotateClock" src="{{ asset('img/second_hand.png') }}"  />
+			</div> 
 		</div>
 	</div>
 </div>

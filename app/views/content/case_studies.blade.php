@@ -28,7 +28,7 @@
 		<div class="slide rbc">
 			<div class="row">
 				<div class="eight columns">
-					<img class="rbc_tease" src="{{ asset('img/rbc_tease.png') }}"/>
+					<img class="rbc_tease wow fadeInLeft" src="{{ asset('img/rbc_tease.png') }}"/>
 				</div>
 				<div class="four columns tease">
 					<img src="{{ asset('img/rbc_logo.png') }}"  />
@@ -41,7 +41,7 @@
 		<div class="slide su2c">
 			<div class="row">
 				<div class="eight columns">
-					<img class="su2c_tease" src="{{ asset('img/su2c_tease.png') }}"/>
+					<img class="su2c_tease wow fadeInLeft" src="{{ asset('img/su2c_tease.png') }}"/>
 				</div>
 				<div class="four columns tease">
 					<img src="{{ asset('img/su2c_logo.png') }}"  />
@@ -54,7 +54,7 @@
 		<div class="slide posterjack">
 			<div class="row">
 				<div class="eight columns">
-					<img class="posterjack_tease" src="{{ asset('img/posterjack_tease.png') }}"/>
+					<img class="posterjack_tease wow fadeInLeft" src="{{ asset('img/posterjack_tease.png') }}"/>
 				</div>
 				<div class="four columns tease">
 					<img src="{{ asset('img/posterjack_logo.png') }}"  />

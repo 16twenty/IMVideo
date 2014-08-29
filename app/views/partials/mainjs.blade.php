@@ -84,9 +84,7 @@ $(document).ready(function () {
 
 }); 
 
-$('.slide .eight img').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-	$(this).removeClass('wow animated fadeInLeft');
-});
+
 
 </script>
 

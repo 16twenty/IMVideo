@@ -7,7 +7,7 @@
 		<source src="{{ asset('videos/reel.mp4') }}" type="video/mp4;">
 		<source src="{{ asset('videos/reel.oggtheora.ogv') }}" type="video/ogg;">
 	</video>
-	<div class="row">
+	<div class="row control_vid_holder">
 		<div id="video-controls" class="ten columns centered">
 			<div class="row">
 				<div class="one column text-center">
