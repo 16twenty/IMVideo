@@ -1,7 +1,9 @@
 <div class="lets_work">
-	<div class="row sub_subtext white text-center">
-			Let's work together<div class="arrow"></div>
-	</div>
+	<a class="lw" href="mailto:hello@imvideo.ca">
+		<div class="row sub_subtext white text-center">
+				Let's work together<div class="arrow"></div>
+		</div>
+	</a>
 </div>
 <footer>
 	<div class="row">
@@ -19,7 +21,7 @@
 					<i class="icon-location"></i>Toronto, ON
 				</div>
 				<div class="four columns sub_subtext white">
-					<i class="icon-phone"></i>416.555.1234
+					<i class="icon-phone"></i>647.339.1144
 				</div>
 				<div class="four columns sub_subtext white">
 					<i class="icon-mail"></i>hello@imvideo.ca

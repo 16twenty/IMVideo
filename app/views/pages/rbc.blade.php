@@ -42,7 +42,7 @@
 
 	</div>
 </div>
-<div class="about">
+<div class="about" id="vid">
 	<div class="row">
 		<h2 class="add_line">Delivered Product</h2>
 	</div>

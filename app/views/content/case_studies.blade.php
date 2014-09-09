@@ -21,6 +21,7 @@
 					<img src="{{ asset('img/molson_logo_invert.png') }}"  />
 					<h2 class="white text-left">#Canthem</h2>
 					<p class="case_deets">Viral Video Campaign</p>
+					<div class="xlarge btn default top_btn"><a href="{{ URL::to('/molson#vid') }}">Watch Video <div class="arrow"></div></a></div>
 					<div class="xlarge btn default"><a href="{{ URL::to('/molson') }}">View Case Study <div class="arrow"></div></a></div>
 				</div>
 			</div>
@@ -34,6 +35,7 @@
 					<img src="{{ asset('img/rbc_logo.png') }}"  />
 					<h2 class="white text-left">#AvionVIP</h2>
 					<p class="case_deets">Social Media / Online Ad</p>
+					<div class="xlarge btn default top_btn"><a href="{{ URL::to('/rbc#vid') }}">Watch Video <div class="arrow"></div></a></div>
 					<div class="xlarge btn default"><a href="{{ URL::to('/rbc') }}">View Case Study <div class="arrow"></div></a></div>
 				</div>
 			</div>
@@ -47,6 +49,7 @@
 					<img src="{{ asset('img/su2c_logo.png') }}"  />
 					<h2 class="white text-left">#su2c</h2>
 					<p class="case_deets">Electronic Press Kit</p>
+					<div class="xlarge btn default top_btn"><a href="{{ URL::to('/su2c#vid') }}">Watch Video <div class="arrow"></div></a></div>
 					<div class="xlarge btn default"><a href="{{ URL::to('/su2c') }}">View Case Study <div class="arrow"></div></a></div>
 				</div>
 			</div>
@@ -60,6 +63,7 @@
 					<img src="{{ asset('img/posterjack_logo.png') }}"  />
 					<h2 class="white text-left">#PosterJack</h2>
 					<p class="case_deets">Promo Video / Online Ad</p>
+					<div class="xlarge btn default top_btn"><a href="{{ URL::to('/posterjack#vid') }}">Watch Video <div class="arrow"></div></a></div>
 					<div class="xlarge btn default"><a href="{{ URL::to('/posterjack') }}">View Case Study <div class="arrow"></div></a></div>
 				</div>
 			</div>
