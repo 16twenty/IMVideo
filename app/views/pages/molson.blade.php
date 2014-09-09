@@ -48,7 +48,7 @@
 		</div>
 	</div>
 </div>
-<div class="about">
+<div class="about" id="vid">
 	<div class="row">
 		<h2>Delivered Product</h2>
 	</div>

@@ -20,7 +20,7 @@
 <div class="header">
 	<div class="intro_text animated fadeInDown">
 		<div class="row">
-			<h1 class="add_line">Digital<br>Film Makers</h1>
+			<h1 class="add_line">IMVIDEO<br><span class="dfm">Digital Film Makers</span></h1>
 			<p class="eight columns centered subtitle">
 				Full service digital video production with a passion for performance marketing and solutions that inspire curiosity. 
 			</p>
