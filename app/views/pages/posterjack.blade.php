@@ -37,7 +37,7 @@
 			</p>
 		</div>
 		<div class="six columns alpha">
-			<img class="wow fadeIn"src="{{ asset('img/before_posterjack.jpg') }}"  />
+			<img class="wow fadeIn" src="{{ asset('img/before_posterjack.jpg') }}"  />
 			<img class="wow fadeIn" src="{{ asset('img/before2_posterjack.jpg') }}"  />
 		</div>
 		<div class="six columns">
@@ -55,6 +55,9 @@
 			<p class="sub_subtext text-center">
 				Our final deliverables were met with great enthusiasm! We were able to highlight the ease of use and craftsmanship Posterjack offers, by focusing our videos on the intricacies involved in turning a photo into a tactile piece of art, none of which the customer is aware of because of how simple Posterjack is to use.  
 			</p>
+			<div class="vimeo video">
+				<iframe src="//player.vimeo.com/video/98242559?title=0&amp;byline=0&amp;portrait=0&amp;color=288d96" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
 		</div>
 	</div>
 </div>

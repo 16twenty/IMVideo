@@ -54,6 +54,9 @@
 			<p class="sub_subtext text-center">
 				We were able to cover both celebrity and conference footage of the SU2C Canada Launch and upload footage within a few hours for media outlet access. Footage was taken between 10am - Noon, and uploaded by 2:30pm for viewing.   
 			</p>
+			<div class="vimeo video">
+				<iframe src="//player.vimeo.com/video/105662161?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>			
+			</div>
 		</div>
 	</div>
 </div>

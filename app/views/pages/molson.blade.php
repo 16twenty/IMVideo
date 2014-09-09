@@ -36,8 +36,15 @@
 				Make instruments out of Molson Beer Products. Film ourselves playing said instruments. Release on Official Molson YouTube Channel. Rack up the views. 
 			</p>
 		</div>
-		<div class="twelve columns text-center top_space">
-			<img class="beer_asset" src="{{ asset('img/molson_tease.png') }}"  />
+		<div class="six columns alpha top_space">
+			<img class="wow fadeIn" src="{{ asset('img/molson1.jpg') }}"  />
+			<img class="wow fadeIn" src="{{ asset('img/molson2.jpg') }}"  />
+			<img class="wow fadeIn" src="{{ asset('img/molson4.jpg') }}"  />
+		</div>
+		<div class="six columns top_space">
+			<img class="wow fadeIn" src="{{ asset('img/molson5.jpg') }}"  />
+			<img class="wow fadeIn" src="{{ asset('img/molson6.jpg') }}"  />
+			<img class="wow fadeIn" src="{{ asset('img/molson7.jpg') }}"  />
 		</div>
 	</div>
 </div>
@@ -48,8 +55,11 @@
 	<div class="row">
 		<div class="twelve columns">
 			<p class="sub_subtext text-center relative add_line">
-				Make instruments out of Molson Beer Products. Film ourselves playing said instruments. Release on Official Molson YouTube Channel. Rack up the views.
+				We had a blast with this one. Not only did we get to shoot something that had the potential virality of chicken pox at a One Direction concert, we got to star in it too!
 			</p>
+			<div class="vimeo video">
+				<iframe src="//player.vimeo.com/video/44813686?title=0&amp;byline=0&amp;portrait=0&amp;color=a62121" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
 		</div>
 	</div>
 </div>
