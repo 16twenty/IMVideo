@@ -190,10 +190,15 @@ window.onload = function() {
 </script>
 <script type="text/javascript">
  $(document).ready(function($) {
-   $('.modal .close').on('click',function(){
+   $('.modal .close, .open').on('click',function(){
     if($('.modal').is(':visible')){
 		var vidname = $(this).attr('videoname');
         var resourceVideo = $('#'+vidname+' iframe').attr('src');
+		if($(this).hasClass('close')) {
+			resourceVideo = resourceVideo.substr(0,resourceVideo.lastIndexOf("&"))
+		} else if($(this).hasClass('open')) {
+			resourceVideo = resourceVideo+'&amp;autoplay=1';
+		}
         $('#'+vidname+' iframe').attr('src','').attr('src',resourceVideo);
         };
     })
@@ -204,6 +209,9 @@ window.onload = function() {
 		
 		for(var i = 0; i<windows.length; i++) {
 			var resourceVideo = $(windows[i]).attr('src');
+			if(resourceVideo.match(/autoplay/)) {
+				resourceVideo = resourceVideo.substr(0,resourceVideo.lastIndexOf("&"))
+			} 
 			$(windows[i]).attr('src','').attr('src',resourceVideo);	
 		}
 	}
