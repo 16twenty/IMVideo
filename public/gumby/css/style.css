@@ -615,6 +615,21 @@ footer {
 	margin-top:80px;
 }
 /*Cases*/
+.modal > .content {
+	background: transparent;
+	max-height: none;
+	width:75%;
+}
+.modal h2 {
+	font-size: 30px!important;
+	padding-bottom: 0px!important;
+}
+.modal .vimeo {
+	margin-top:0px!important;
+}
+.modal .btn {
+	margin-top:10px;
+}
 #posterjack_bg {
 	background: #288d96;
 }
@@ -790,8 +805,15 @@ footer {
 	.hide_flow {
 		overflow: hidden;
 	}
+	.modal > .content {
+		top:25%;
+	}
 }
-
+@media only screen and (min-width: 1155px) {
+		.modal > .content {
+		top:12.5%;
+	}
+}
 @media only screen and (min-width: 1024px) and (max-width: 1190px) {
 	.tease h2 {
 		font-size: 40px;
@@ -840,6 +862,9 @@ footer {
 		margin:0;
 	}
 	.inner_intro_text .case_sub, .molson_asset, .su2c_asset, .rbc_asset, .posterjack_asset {
+		display: none;
+	}
+	.modal {
 		display: none;
 	}
 	
