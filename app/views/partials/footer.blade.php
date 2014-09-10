@@ -1,5 +1,5 @@
 <div class="lets_work">
-	<a class="lw" href="mailto:hello@imvideo.ca">
+	<a class="lw" href="mailto:ian@ianmorris.ca">
 		<div class="row sub_subtext white text-center">
 				Let's work together<div class="arrow"></div>
 		</div>
@@ -24,7 +24,7 @@
 					<i class="icon-phone"></i>647.339.1144
 				</div>
 				<div class="four columns sub_subtext white">
-					<i class="icon-mail"></i>hello@imvideo.ca
+					<i class="icon-mail"></i>ian@ianmorris.ca
 				</div>
 			</div>
 		</div>
