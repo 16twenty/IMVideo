@@ -188,3 +188,13 @@ window.onload = function() {
 	});
 }
 </script>
+<script type="text/javascript">
+ $(document).ready(function($) {
+   $('.modal .close').live('click',function(){
+    if($('.modal').is(':visible')){
+        var resourceVideo = $('.modal iframe').attr('src');
+        $('.modal iframe').attr('src','').attr('src',resourceVideo);
+        };
+    })
+});
+</script>
