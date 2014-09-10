@@ -190,11 +190,24 @@ window.onload = function() {
 </script>
 <script type="text/javascript">
  $(document).ready(function($) {
-   $('.modal .close').live('click',function(){
+   $('.modal .close').on('click',function(){
     if($('.modal').is(':visible')){
-        var resourceVideo = $('.modal iframe').attr('src');
-        $('.modal iframe').attr('src','').attr('src',resourceVideo);
+		var vidname = $(this).attr('videoname');
+        var resourceVideo = $('#'+vidname+' iframe').attr('src');
+        $('#'+vidname+' iframe').attr('src','').attr('src',resourceVideo);
         };
     })
+   
+   $('.control_button').on('click',function(){
+    if($('.modal').is(':visible')){
+		var windows = $('.modal iframe');
+		
+		for(var i = 0; i<windows.length; i++) {
+			var resourceVideo = $(windows[i]).attr('src');
+			$(windows[i]).attr('src','').attr('src',resourceVideo);	
+		}
+	}
+    });
+   
 });
 </script>
